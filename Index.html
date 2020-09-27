@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>FIRST</title>
+    <meta charset="utf-8" />
+    <style>
+        body{
+            background-image:url("GIF/EM1.gif");
+            background-color:black;
+            background-size:cover;
+            color: gold;
+            font-family:'Agency FB';
+            font-size:40px;
+        }
+        audio{
+            position:absolute;
+            top: 42%;
+            left:40%;
+        } 
+        #EM2{
+            position:absolute;
+            top:50%;
+            left:34%;
+        }
+    </style>
+</head>
+<body>
+    <audio controls>
+        <source src="Music/Emi.mp3" />
+    </audio>
+    <div class="text-center">
+        <h1 class="display-4">SITE CREATED BY EM TIMUR</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+        <div>PLAY ME</div>
+    </div>
+    <img id="EM2" src="GIF/EM2.gif" />
+</body>
+</html>
